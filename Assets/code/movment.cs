@@ -4,15 +4,43 @@ using UnityEngine;
 
 public class movment : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speed = 10f;
+    public float jumpForce = 500f;
+
+    private new Rigidbody2D rigidbody2D;
+    private bool isGrounded;
+
+    private void Awake()
     {
-        
+        rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        float horizontal = Input.GetAxis("Horizontal");
+        Vector2 velocity = rigidbody2D.velocity;
+        velocity.x = horizontal * speed;
+        rigidbody2D.velocity = velocity;
+
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            rigidbody2D.AddForce(Vector2.up * jumpForce);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
     }
 }
