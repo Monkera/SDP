@@ -9,6 +9,7 @@ public class player_movment : MonoBehaviour
     public float moveSpeed = 8;
     public float playerjumpforce = 8;
     private bool floor;
+    public GameObject gameOver;
     // Start is called before the first frame update
     void Start()
     {
@@ -59,12 +60,18 @@ public class player_movment : MonoBehaviour
     {
         floor = true;
         anim.SetBool("is_jumping", false);
+
+        if (collision.gameObject.tag == "spikes")
+        {
+            gameOver.SetActive(true);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         floor = false;
     }
+
 
 
 }
