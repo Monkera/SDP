@@ -32,6 +32,7 @@ public class player_movment : MonoBehaviour
         {
             anim.SetBool("is_running", false);
         }
+        
         if (Input.GetKeyDown(KeyCode.Space) && floor)
         {
             anim.SetBool("is_jumping", true);
