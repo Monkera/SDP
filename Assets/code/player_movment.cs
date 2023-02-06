@@ -40,10 +40,6 @@ public class player_movment : MonoBehaviour
             myrigidbody.velocity = Vector2.up * playerjumpforce;
         }
 
-
-
-
-
     }
 
     private void runIfPossible()
