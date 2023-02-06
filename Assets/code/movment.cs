@@ -6,14 +6,10 @@ public class movment : MonoBehaviour
 {
     public float speed = 10f;
     public float jumpForce = 500f;
-
-    private new Rigidbody2D rigidbody2D;
+    public Rigidbody2D rigidbody2D;
+    
     private bool isGrounded;
 
-    private void Awake()
-    {
-        rigidbody2D = GetComponent<Rigidbody2D>();
-    }
 
     private void Update()
     {
