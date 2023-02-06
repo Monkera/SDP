@@ -144,11 +144,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3381341295128598427, guid: 2ba8dfcf734f705489eb7f6ec0f72621, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.05
+      value: -8.93
       objectReference: {fileID: 0}
     - target: {fileID: 3381341295128598427, guid: 2ba8dfcf734f705489eb7f6ec0f72621, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9
+      value: -1.524
       objectReference: {fileID: 0}
     - target: {fileID: 3381341295128598427, guid: 2ba8dfcf734f705489eb7f6ec0f72621, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1719,3 +1719,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myrigidbody: {fileID: 1970297581}
+  moveSpeed: 8
+  playerjumpforce: 8
+--- !u!95 &1970297588
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970297579}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c25d9580c9bc93c4c9b5173ef85fbe9b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0

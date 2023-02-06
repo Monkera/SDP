@@ -5,6 +5,7 @@ using UnityEngine;
 public class player_movment : MonoBehaviour
 {
     public Rigidbody2D myrigidbody;
+    public Animator anim;
     public float moveSpeed = 8;
     public float playerjumpforce = 8;
     private bool floor;
@@ -19,30 +20,50 @@ public class player_movment : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.D))
         {
-            Debug.Log("D");
+            runIfPossible();
             transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
         }
         else if (Input.GetKey(KeyCode.A))
         {
-            Debug.Log("A");
+            runIfPossible();
             transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
         }
-        else if (Input.GetKeyDown(KeyCode.Space) && floor)
+        else
         {
-            Debug.Log("space");
+            anim.SetBool("is_running", false);
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && floor)
+        {
+            anim.SetBool("is_jumping", true);
             myrigidbody.velocity = Vector2.up * playerjumpforce;
         }
+
+
+
+
+
     }
 
+    private void runIfPossible()
+    {
+        if (floor)
+        {
+            anim.SetBool("is_running", true);
+        }
+        
+    }
 
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         floor = true;
+        anim.SetBool("is_jumping", false);
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         floor = false;
     }
+
+
 }
