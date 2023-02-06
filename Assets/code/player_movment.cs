@@ -25,7 +25,7 @@ public class player_movment : MonoBehaviour
             Debug.Log("A");
             transform.Translate(Vector2.left * 10 * Time.deltaTime);
         }
-        else if (Input.GetKeyDown(KeyCode.Space))
+        else if (Input.GetKeyDown(KeyCode.Space) && floor)
         {
             Debug.Log("space");
             myrigidbody.velocity = Vector2.up * 10;
@@ -34,13 +34,13 @@ public class player_movment : MonoBehaviour
 
 
 
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    floor = true;
-    //}
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        floor = true;
+    }
 
-    //private void OnCollisionExit2D(Collision2D collision)
-    //{
-    //    floor = false;
-    //}
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        floor = false;
+    }
 }
