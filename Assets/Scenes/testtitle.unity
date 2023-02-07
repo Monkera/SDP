@@ -194,8 +194,11 @@ GameObject:
   m_Component:
   - component: {fileID: 243191642}
   - component: {fileID: 243191643}
-  - component: {fileID: 243191646}
   - component: {fileID: 243191644}
+  - component: {fileID: 243191645}
+  - component: {fileID: 243191646}
+  - component: {fileID: 243191647}
+  - component: {fileID: 243191648}
   m_Layer: 10
   m_Name: FrogGFX
   m_TagString: Untagged
@@ -290,7 +293,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &243191646
+--- !u!114 &243191645
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -299,7 +302,57 @@ MonoBehaviour:
   m_GameObject: {fileID: 243191641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32784a3c7ce41b428335a874bd0f472, type: 3}
+  m_Script: {fileID: 11500000, guid: 12dab4b8ea900db4ca7a1a7bed20d1b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiPath: {fileID: 1356467662}
+--- !u!50 &243191646
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243191641}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &243191647
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243191641}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.053468466, y: 0.010693901}
+  serializedVersion: 2
+  m_Radius: 0.5855497
+--- !u!114 &243191648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243191641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cc15bce8dbb2248bd2d18f15e573e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   aiPath: {fileID: 1356467662}
