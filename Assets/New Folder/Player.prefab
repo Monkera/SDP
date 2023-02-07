@@ -104,7 +104,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 288e5417d2233724191527bd3a45149e, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -157,7 +157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cbcd3d3eb6eef04a88468ed1bbe7c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myrigidbody: {fileID: 1973884532189628832}
-  anim: {fileID: 3857414962125526676}
-  moveSpeed: 8
-  playerjumpforce: 8
+  MoveSpeed: 5
+  PlayerJumpForce: 5
+  ClimbSpeed: 5
