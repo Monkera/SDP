@@ -9,6 +9,7 @@ public class player_movment : MonoBehaviour
     public float moveSpeed = 8;
     public float playerjumpforce = 8;
     private bool floor;
+    public float climbeSpeed;
     public GameObject gameOver;
     // Start is called before the first frame update
     void Start()
@@ -60,6 +61,11 @@ public class player_movment : MonoBehaviour
         if (collision.gameObject.tag == "spikes")
         {
             gameOver.SetActive(true);
+        }
+
+        if(collision.gameObject.tag == "leader")
+        {
+            transform.Translate(Vector2.up * moveSpeed * Time.deltaTime);
         }
     }
 
