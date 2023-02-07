@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - spikes
+  - chest
+  - key
+  - leader
+  - Ground
   layers:
   - Default
   - TransparentFX
