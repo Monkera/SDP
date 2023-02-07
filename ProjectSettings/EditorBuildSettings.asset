@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/mainmenujann/ui_start.unity
+    path: Assets/Scenes/testing2/ui_start.unity
     guid: adec520d0f366ae4f83747b7371ee1d8
   - enabled: 1
-    path: Assets/Scenes/mainmenujann/Test.unity
-    guid: 84249ee1a25be8d4e957c673f6c5f956
+    path: Assets/Scenes/testing2/testtitle2jann.unity
+    guid: 3722197c063d14a47a3ef6f4ce86b162
   - enabled: 1
-    path: Assets/Scenes/mainmenujann/UI_Game_Over.unity
+    path: Assets/Scenes/testing2/UI_Game_Over.unity
     guid: 887c6174ab232134992574b5c3aeabc2
   m_configObjects: {}

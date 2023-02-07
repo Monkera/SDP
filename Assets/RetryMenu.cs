@@ -8,4 +8,9 @@ public class RetryMenu : MonoBehaviour
     public void RetryGame(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
+
+    public void QuitGame(){
+        SceneManager.LoadScene("ui_start");
+
+    }
 }
