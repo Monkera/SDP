@@ -1,79 +1,101 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class player_movment : MonoBehaviour
 {
-    public Rigidbody2D myrigidbody;
-    public Animator anim;
-    public float moveSpeed = 8;
-    public float playerjumpforce = 8;
-    private bool floor;
-    public float climbeSpeed;
-    public GameObject gameOver;
-    // Start is called before the first frame update
-    void Start()
-    {
+    private Rigidbody2D _rigidbody2D;
+    private Animator _animator;
+    public float MoveSpeed = 8f;
+    public float PlayerJumpForce = 8f;
+    private bool _isFloor;
+    public float ClimbSpeed = 2f;
+    private bool _isClimbing;
 
+    private void Awake()
+    {
+        _rigidbody2D = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        if (Input.GetKey(KeyCode.D))
+        MoveHorizontally();
+        Jump();
+        Climb();
+    }
+
+    private void MoveHorizontally()
+    {
+        float horizontalInput = Input.GetAxis("Horizontal");
+
+        if (Mathf.Abs(horizontalInput) > Mathf.Epsilon)
         {
-            runIfPossible();
-            transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
-        }
-        else if (Input.GetKey(KeyCode.A))
-        {
-            runIfPossible();
-            transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+            RunIfPossible();
+            transform.Translate(Vector2.right * horizontalInput * MoveSpeed * Time.deltaTime);
         }
         else
         {
-            anim.SetBool("is_running", false);
+            _animator.SetBool("is_running", false);
         }
-        
-        if (Input.GetKeyDown(KeyCode.Space) && floor)
-        {
-            anim.SetBool("is_jumping", true);
-            myrigidbody.velocity = Vector2.up * playerjumpforce;
-        }
-
     }
 
-    private void runIfPossible()
+    private void RunIfPossible()
     {
-        if (floor)
+        if (_isFloor)
         {
-            anim.SetBool("is_running", true);
+            _animator.SetBool("is_running", true);
         }
-        
     }
 
+    private void Jump()
+    {
+        if (Input.GetButtonDown("Jump") && _isFloor)
+        {
+            _animator.SetBool("is_jumping", true);
+            _rigidbody2D.velocity = Vector2.up * PlayerJumpForce;
+        }
+    }
+
+    private void Climb()
+    {
+        if (_isClimbing)
+        {
+            float verticalInput = Input.GetAxis("Vertical");
+            _rigidbody2D.velocity = new Vector2(0, verticalInput * ClimbSpeed);
+        }
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        floor = true;
-        anim.SetBool("is_jumping", false);
+        _isFloor = true;
+        _animator.SetBool("is_jumping", false);
 
         if (collision.gameObject.tag == "spikes")
         {
-            gameOver.SetActive(true);
-        }
-
-        if(collision.gameObject.tag == "leader")
-        {
-            transform.Translate(Vector2.up * moveSpeed * Time.deltaTime);
+            SceneManager.LoadScene("UI_Game_Over");
         }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        floor = false;
+        _isFloor = false;
     }
 
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.tag == "Ladder")
+        {
+            _isClimbing = true;
+        }
+    }
 
-
+    private void OnTriggerExit2D(Collider2D collider)
+    {
+        if (collider.gameObject.tag == "Ladder")
+        {
+            _isClimbing = false;
+        }
+    }
 }
