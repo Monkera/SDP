@@ -10,7 +10,7 @@ public class player_movment : MonoBehaviour
     public float MoveSpeed = 8f;
     public float PlayerJumpForce = 8f;
     private bool _isFloor;
-    public float ClimbSpeed = 2f;
+    public float ClimbSpeed = 8f;
     private bool _isClimbing;
 
     private void Awake()
@@ -87,6 +87,7 @@ public class player_movment : MonoBehaviour
     {
         if (collider.gameObject.tag == "Ladder")
         {
+            Debug.Log("Ladder");
             _isClimbing = true;
         }
     }
