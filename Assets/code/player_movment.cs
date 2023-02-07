@@ -7,8 +7,8 @@ public class player_movment : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
-    public float MoveSpeed = 8f;
-    public float PlayerJumpForce = 8f;
+    public float MoveSpeed = 7f;
+    public float PlayerJumpForce = 5f;
     private bool _isFloor;
     public float ClimbSpeed = 8f;
     private bool _isClimbing;
