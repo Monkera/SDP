@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class player_movment : MonoBehaviour
 {
+    private bool key;
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
     public float MoveSpeed = 7f;
@@ -89,6 +90,16 @@ public class player_movment : MonoBehaviour
         {
             Debug.Log("Ladder");
             _isClimbing = true;
+        }
+        else if (collider.gameObject.tag == "key")
+        {
+            Debug.Log("Key");
+            key = true;
+            Destroy(collider.gameObject);
+        }
+        else if (collider.gameObject.tag == "Door" && key == true)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
