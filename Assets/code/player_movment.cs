@@ -104,6 +104,7 @@ public class player_movment : MonoBehaviour
         }
         else if (collider.gameObject.tag == "Door" && key == true)
         {
+            soundManager.Play("door");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
