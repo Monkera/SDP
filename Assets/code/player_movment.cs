@@ -13,9 +13,11 @@ public class player_movment : MonoBehaviour
     private bool _isFloor;
     public float ClimbSpeed = 8f;
     private bool _isClimbing;
+    private sound_Manager soundManager;
 
     private void Awake()
     {
+        soundManager = FindObjectOfType<sound_Manager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
     }
@@ -54,6 +56,7 @@ public class player_movment : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump") && _isFloor)
         {
+            soundManager.Play("jump");
             _animator.SetBool("is_jumping", true);
             _rigidbody2D.velocity = Vector2.up * PlayerJumpForce;
         }
@@ -75,6 +78,7 @@ public class player_movment : MonoBehaviour
 
         if (collision.gameObject.tag == "spikes")
         {
+            soundManager.Play("death");
             SceneManager.LoadScene("UI_Game_Over");
         }
     }
@@ -93,6 +97,7 @@ public class player_movment : MonoBehaviour
         }
         else if (collider.gameObject.tag == "key")
         {
+            soundManager.Play("key_pickup");
             Debug.Log("Key");
             key = true;
             Destroy(collider.gameObject);
