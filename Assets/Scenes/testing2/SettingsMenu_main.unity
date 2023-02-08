@@ -5930,7 +5930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e801d576c01ef0941800c189d40dc7a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resolutionDropdown: {fileID: 1677849197}
+  resolutionDropdown: {fileID: 2133984952}
 --- !u!4 &1949029983
 Transform:
   m_ObjectHideFlags: 0
@@ -6441,9 +6441,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 521178078}
-        m_TargetAssemblyTypeName: settingsmenuMain, Assembly-CSharp
-        m_MethodName: SetQualitymain
+      - m_Target: {fileID: 1949029982}
+        m_TargetAssemblyTypeName: resulutionmanager, Assembly-CSharp
+        m_MethodName: SetResolution
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
