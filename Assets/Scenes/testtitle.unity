@@ -190,11 +190,12 @@ PrefabInstance:
       propertyPath: climbeSpeed
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 8576186549400650903, guid: 3f229c2dd34d2694ea99b7ed7175a0ba, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 04727e32548e18f4f96be497801a49b6, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 3f229c2dd34d2694ea99b7ed7175a0ba, type: 3}
 --- !u!1 &393214978
 GameObject:
@@ -2472,6 +2473,18 @@ PrefabInstance:
     - target: {fileID: 115091231580986803, guid: 6585e407d9ead814cadffdc05ea6ae81, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 115091231580986804, guid: 6585e407d9ead814cadffdc05ea6ae81, type: 3}
+      propertyPath: sounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 115091231580986804, guid: 6585e407d9ead814cadffdc05ea6ae81, type: 3}
+      propertyPath: sounds.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: c2ff00ebc86b43744b80d28a04602d5e, type: 3}
+    - target: {fileID: 115091231580986804, guid: 6585e407d9ead814cadffdc05ea6ae81, type: 3}
+      propertyPath: sounds.Array.data[3].name
+      value: door
       objectReference: {fileID: 0}
     - target: {fileID: 115091231580986805, guid: 6585e407d9ead814cadffdc05ea6ae81, type: 3}
       propertyPath: m_Name
