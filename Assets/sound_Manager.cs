@@ -12,9 +12,18 @@ public class sound_Manager : MonoBehaviour
     {
         foreach (Sound s in sounds)
         {
-            s.source = gameObject.AddComponent<AudioSource>();
-            s.source.clip = s.clip;
-            s.source.loop = s.loop;
+            if (s != null)
+            {
+                s.source = gameObject.AddComponent<AudioSource>();
+                s.source.clip = s.clip;
+                s.source.loop = s.loop;
+            }
+            else
+            {
+                Debug.Log("can't finde sound");
+                return;
+            }
+
         }
     }
 
