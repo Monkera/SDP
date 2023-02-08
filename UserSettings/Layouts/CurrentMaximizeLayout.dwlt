@@ -15,7 +15,11 @@ MonoBehaviour:
   m_Children:
   - {fileID: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 12}
+=======
+  - {fileID: 17}
+>>>>>>> parent of fc6a2f9 (isk)
 =======
   - {fileID: 17}
 >>>>>>> parent of fc6a2f9 (isk)
@@ -23,6 +27,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 1536
     height: 722.8
@@ -36,11 +41,21 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+=======
+    width: 1280
+    height: 587.3333
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+>>>>>>> parent of fc6a2f9 (isk)
 <<<<<<< Updated upstream
   controlID: 80343
 =======
   controlID: 8232
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
 --- !u!114 &2
 MonoBehaviour:
@@ -65,20 +80,27 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 384
     y: 73.6
     width: 766.80005
     height: 435
 =======
+=======
+>>>>>>> parent of fc6a2f9 (isk)
     x: 1008.6667
     y: 72.66667
     width: 270.3333
     height: 566.3333
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -145,6 +167,8 @@ MonoBehaviour:
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 =======
+=======
+>>>>>>> parent of fc6a2f9 (isk)
   m_PreviewResizer:
     m_CachedPref: -50
     m_ControlHash: 1964396721
@@ -152,6 +176,9 @@ MonoBehaviour:
   m_Palette: {fileID: 6355254636320724076, guid: 09371e866b108534484f66cb9f0ad5ba, type: 3}
   m_DrawGridGizmo: 0
   m_DrawGizmos: 0
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
 --- !u!114 &3
 MonoBehaviour:
@@ -168,7 +195,11 @@ MonoBehaviour:
   m_Children:
   - {fileID: 4}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 9}
+=======
+  - {fileID: 14}
+>>>>>>> parent of fc6a2f9 (isk)
 =======
   - {fileID: 14}
 >>>>>>> parent of fc6a2f9 (isk)
@@ -177,12 +208,21 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1152.8
     height: 722.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
   controlID: 100
+=======
+    width: 1008.6667
+    height: 587.3333
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 8178
+>>>>>>> parent of fc6a2f9 (isk)
 =======
     width: 1008.6667
     height: 587.3333
@@ -211,12 +251,21 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1152.8
     height: 456
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 101
+=======
+    width: 1008.6667
+    height: 353.33334
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 8179
+>>>>>>> parent of fc6a2f9 (isk)
 =======
     width: 1008.6667
     height: 353.33334
@@ -243,8 +292,13 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 384
     height: 456
+=======
+    width: 210.66667
+    height: 353.33334
+>>>>>>> parent of fc6a2f9 (isk)
 =======
     width: 210.66667
     height: 353.33334
@@ -278,9 +332,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 73.6
     width: 383
     height: 435
+=======
+    y: 72.66667
+    width: 209.66667
+    height: 332.33334
+>>>>>>> parent of fc6a2f9 (isk)
 =======
     y: 72.66667
     width: 209.66667
@@ -294,9 +354,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 10720000
       m_LastClickedID: 29200
       m_ExpandedIDs: 4ef7ffff04f8ffff26fbffff
+=======
+      m_SelectedIDs: c0ee0000
+      m_LastClickedID: 61120
+      m_ExpandedIDs: 9a6affffb66dfffff26dffff188fffff6c8fffff2c91ffffc89effff7aa4ffffd6a4ffff1ca5ffff68a5ffffaea5ffff2ca6fffff0b9ffff28baffff60baffff94baffffdabaffff2abcffffc2a80000aed50000aaee0000
+>>>>>>> parent of fc6a2f9 (isk)
 =======
       m_SelectedIDs: c0ee0000
       m_LastClickedID: 61120
@@ -341,10 +407,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 384
     y: 0
     width: 768.80005
     height: 456
+=======
+    x: 210.66667
+    y: 0
+    width: 798
+    height: 353.33334
+>>>>>>> parent of fc6a2f9 (isk)
 =======
     x: 210.66667
     y: 0
@@ -357,10 +430,13 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 8}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2}
   m_Selected: 1
   m_LastSelected: 0
 =======
+=======
+>>>>>>> parent of fc6a2f9 (isk)
   - {fileID: 9}
   - {fileID: 10}
   - {fileID: 11}
@@ -368,6 +444,9 @@ MonoBehaviour:
   - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
 --- !u!114 &8
 MonoBehaviour:
@@ -391,15 +470,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 384
     y: 73.6
     width: 766.80005
     height: 435
 =======
+=======
+>>>>>>> parent of fc6a2f9 (isk)
     x: 210.66667
     y: 72.66667
     width: 796
     height: 332.33334
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -411,10 +496,13 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
 =======
+=======
+>>>>>>> parent of fc6a2f9 (isk)
       snapOffset: {x: -100, y: -25.600006}
       snapOffsetDelta: {x: 0, y: -0.3999939}
       snapCorner: 3
@@ -505,7 +593,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       snapOffset: {x: -185, y: -116.66669}
+=======
+      snapOffset: {x: -277.3333, y: -76}
+>>>>>>> parent of fc6a2f9 (isk)
 =======
       snapOffset: {x: -277.3333, y: -76}
 >>>>>>> parent of fc6a2f9 (isk)
@@ -668,6 +760,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 10.310039, y: 4.848041, z: 1.6858675}
     speed: 2
     m_Value: {x: 10.310039, y: 4.848041, z: 1.6858675}
@@ -675,12 +768,20 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     m_Target: {x: 593031.7, y: -2181874.5, z: 277.74066}
     speed: 2
+=======
+<<<<<<< Updated upstream
+    m_Target: {x: 593031.7, y: -2181874.5, z: 277.74066}
+    speed: 2
+>>>>>>> parent of fc6a2f9 (isk)
     m_Value: {x: 593033.1, y: -2181875.5, z: 288.5165}
 =======
     m_Target: {x: 7.575558, y: -1.3459423, z: -0.0019362671}
     speed: 2
     m_Value: {x: 7.5948586, y: -1.1158234, z: -0.008750791}
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
   m_RenderMode: 0
   m_CameraMode:
@@ -733,6 +834,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 5.012715
     speed: 2
     m_Value: 5.012715
@@ -740,12 +842,20 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     m_Target: 23.42776
     speed: 2
+=======
+<<<<<<< Updated upstream
+    m_Target: 23.42776
+    speed: 2
+>>>>>>> parent of fc6a2f9 (isk)
     m_Value: 24.531685
 =======
     m_Target: 14.461858
     speed: 2
     m_Value: 15.143307
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
   m_Ortho:
     m_Target: 1
@@ -1035,7 +1145,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of fc6a2f9 (isk)
   m_EditorHideFlags: 1
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -1191,6 +1304,273 @@ MonoBehaviour:
   m_SelectedSpriteRectGUID: 00000000000000000000000000000000
   m_LastUsedModuleTypeName: 
 --- !u!114 &12
+<<<<<<< HEAD
+=======
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 210.66667
+    y: 72.66667
+    width: 796
+    height: 284.33334
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+<<<<<<< Updated upstream
+  m_MixersTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: -73520
+    m_ExpandedIDs: 12eb343c
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_LayoutStripsOnTop:
+    m_VerticalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 65
+      - 35
+      relativeSizes:
+      - 0.65
+      - 0.35000002
+      minSizes:
+      - 85
+      - 105
+      maxSizes:
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+    m_HorizontalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 60
+      - 60
+      - 60
+      - 60
+      relativeSizes:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      minSizes:
+      - 85
+      - 85
+      - 85
+      - 85
+      maxSizes:
+      - 0
+      - 0
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+  m_LayoutStripsOnRight:
+    m_VerticalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 60
+      - 60
+      - 60
+      - 60
+      relativeSizes:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      minSizes:
+      - 100
+      - 85
+      - 85
+      - 85
+      maxSizes:
+      - 0
+      - 0
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+    m_HorizontalSplitter:
+      ID: 62736
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 223.2
+      - 521.6
+      relativeSizes:
+      - 0.3
+      - 0.7
+      minSizes:
+      - 160
+      - 160
+      maxSizes:
+      - 0
+      - 0
+      lastTotalSize: 744.8
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+  m_SectionOrder: 00000000030000000100000002000000
+  m_LayoutMode: 1
+  m_SortGroupsAlphabetically: 0
+  m_ShowReferencedBuses: 1
+  m_ShowBusConnections: 0
+  m_ShowBusConnectionsOfSelection: 0
+--- !u!114 &12
+=======
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -1613572239777628632, guid: 982e1b3d136844c4f96795ccc651c018, type: 2}
+    - {fileID: 4989764031395200491, guid: d8ee5054b498bb1499e1c3955ecedc5c, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.5003891
+      e01: 0
+      e02: 0
+      e03: 41.55951
+      e10: 0
+      e11: 0.5003891
+      e12: 0
+      e13: 74.37627
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.60563004
+      e01: 0
+      e02: 0
+      e03: -27.589401
+      e10: 0
+      e11: 0.60563004
+      e12: 0
+      e13: 96.95097
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: d8ee5054b498bb1499e1c3955ecedc5c, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 4989764031395200491, guid: d8ee5054b498bb1499e1c3955ecedc5c, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 210.66667
+    y: 72.66667
+    width: 796
+    height: 340.33334
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 54718
+--- !u!114 &14
+>>>>>>> Stashed changes
+>>>>>>> parent of fc6a2f9 (isk)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1472,6 +1852,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 456
     width: 1152.8
     height: 266.8
@@ -1496,11 +1877,27 @@ MonoBehaviour:
   - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 1
+=======
+    y: 353.33334
+    width: 1008.6667
+    height: 233.99997
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 1
+>>>>>>> parent of fc6a2f9 (isk)
 <<<<<<< Updated upstream
 --- !u!114 &13
 =======
 --- !u!114 &15
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1523,9 +1920,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 529.60004
     width: 1151.8
     height: 245.79999
+=======
+    y: 426
+    width: 1007.6667
+    height: 212.99997
+>>>>>>> parent of fc6a2f9 (isk)
 =======
     y: 426
     width: 1007.6667
@@ -1563,6 +1966,7 @@ MonoBehaviour:
 =======
   - Assets/build_stuff
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Projekte\GIT\SDP
   m_LockTracker:
@@ -1579,6 +1983,14 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+=======
+>>>>>>> Stashed changes
+  m_LastFoldersGridSize: 83
+  m_LastProjectPath: C:\Users\Eris\Desktop\SDP
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+>>>>>>> parent of fc6a2f9 (isk)
 <<<<<<< Updated upstream
     scrollPos: {x: 0, y: 120}
     m_SelectedIDs: 84610000
@@ -1590,6 +2002,9 @@ MonoBehaviour:
     m_LastClickedID: 42748
     m_ExpandedIDs: 00000000caa60000faa6000000a7000002a700001aa7000000ca9a3bffffff7f
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1607,7 +2022,11 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 0}
+=======
+      m_ClientGUIView: {fileID: 14}
+>>>>>>> parent of fc6a2f9 (isk)
 =======
       m_ClientGUIView: {fileID: 14}
 >>>>>>> parent of fc6a2f9 (isk)
@@ -1623,7 +2042,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000326c0000346c0000366c0000386c00003a6c00003c6c00003e6c0000406c0000426c0000446c0000466c0000486c00004a6c00004c6c00004e6c0000506c0000
+=======
+    m_ExpandedIDs: 0000000000a7000002a700001aa7000000ca9a3bffffff7f
+>>>>>>> parent of fc6a2f9 (isk)
 =======
     m_ExpandedIDs: 0000000000a7000002a700001aa7000000ca9a3bffffff7f
 >>>>>>> parent of fc6a2f9 (isk)
@@ -1652,11 +2075,14 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 10720000
     m_LastClickedInstanceID: 29200
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300005a610000186a0000b27500006289000082890000be890000949b0000706a00007861000048640000
 =======
+=======
+>>>>>>> parent of fc6a2f9 (isk)
 <<<<<<< Updated upstream
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
@@ -1668,6 +2094,9 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000727d00003e7e0000be7d0000866d0000b483000000000000c2a2000086a2000004920000
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1685,7 +2114,11 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 9}
+=======
+      m_ClientGUIView: {fileID: 14}
+>>>>>>> parent of fc6a2f9 (isk)
 =======
       m_ClientGUIView: {fileID: 14}
 >>>>>>> parent of fc6a2f9 (isk)
@@ -1699,11 +2132,14 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     m_ScrollPosition: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &11
 =======
+=======
+>>>>>>> parent of fc6a2f9 (isk)
 =======
     m_ScrollPosition: {x: 0, y: 63.00003}
 >>>>>>> Stashed changes
@@ -1711,6 +2147,9 @@ MonoBehaviour:
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 240
 --- !u!114 &16
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1740,8 +2179,11 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &12
 =======
+=======
+>>>>>>> parent of fc6a2f9 (isk)
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1771,6 +2213,9 @@ MonoBehaviour:
   m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &16
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1787,6 +2232,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1152.8
     y: 0
     width: 383.19995
@@ -1800,6 +2246,8 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &13
 =======
+=======
+>>>>>>> parent of fc6a2f9 (isk)
     x: 1108.8
     y: 73.6
     width: 426.19995
@@ -1829,6 +2277,9 @@ MonoBehaviour:
   m_LastSelected: 1
 --- !u!114 &18
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1850,15 +2301,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1152.8
     y: 73.6
     width: 382.19995
     height: 701.8
 =======
+=======
+>>>>>>> parent of fc6a2f9 (isk)
     x: 1008.6667
     y: 72.66667
     width: 270.3333
     height: 566.3333
+<<<<<<< HEAD
+>>>>>>> parent of fc6a2f9 (isk)
+=======
 >>>>>>> parent of fc6a2f9 (isk)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
