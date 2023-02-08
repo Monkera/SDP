@@ -9,6 +9,7 @@ TagManager:
   - key
   - Ground
   - Ladder
+  - Door
   layers:
   - Default
   - TransparentFX
