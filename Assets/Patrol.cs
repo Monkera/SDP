@@ -32,6 +32,6 @@ public class Patrol : MonoBehaviour
             {
                 movingRight = true;
             }
-        }
+        }  
     }
 }
