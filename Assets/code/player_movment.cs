@@ -7,7 +7,7 @@ public class player_movment : MonoBehaviour
 {
     private bool key;
     private Rigidbody2D _rigidbody2D;
-    private SpriteRenderer renderer;
+    private SpriteRenderer spriteRenderer;
     private Animator _animator;
     public float MoveSpeed = 7f;
     public float PlayerJumpForce = 5f;
@@ -18,7 +18,7 @@ public class player_movment : MonoBehaviour
 
     private void Awake()
     {
-        renderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         soundManager = FindObjectOfType<sound_Manager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
@@ -51,11 +51,11 @@ public class player_movment : MonoBehaviour
             transform.Translate(Vector2.right * horizontalInput * MoveSpeed * Time.deltaTime);
             if (horizontalInput < 0)
             {
-                renderer.flipX = true;
+                spriteRenderer.flipX = true;
             }
             else if (horizontalInput > 0)
             {
-                renderer.flipX = false;
+                spriteRenderer.flipX = false;
             }
         }
         else
