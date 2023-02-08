@@ -1,5 +1,6 @@
 # Self Defined Project
 -
-Projekt von den Herbstferien.
+Projekt von den Sportferien
+
 
 
