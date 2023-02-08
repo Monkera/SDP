@@ -9,7 +9,7 @@ public class changeScenesOptions : MonoBehaviour
         SceneManager.LoadScene("SettingsMenu");
     }
     public void Play(){
-        SceneManager.LoadScene("testtitle2jann");
+        SceneManager.LoadScene(PlayerPrefs.GetString("lastScene"));
     }
     public void Quit(){
         SceneManager.LoadScene("ui_start");

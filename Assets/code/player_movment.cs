@@ -29,13 +29,15 @@ public class player_movment : MonoBehaviour
         MoveHorizontally();
         Jump();
         Climb();
+        pause();
     }
 
     private void pause()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene("UI_Pause");
+            PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("pausedmenu");
         }
     }
 
