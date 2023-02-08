@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/testing2/UI_Game_Over.unity
     guid: 887c6174ab232134992574b5c3aeabc2
+  - enabled: 1
+    path: Assets/Scenes/testing2/pausedmenu.unity
+    guid: de3c1175ad784c24e88785d6b0f89359
+  - enabled: 1
+    path: Assets/Scenes/testing2/SettingsMenu.unity
+    guid: 4e5056f6401419045bc407858501d30d
+  - enabled: 1
+    path: Assets/Scenes/testing2/SettingsMenu_main.unity
+    guid: 297dbaa129281e44ab4b585167234454
   m_configObjects: {}
