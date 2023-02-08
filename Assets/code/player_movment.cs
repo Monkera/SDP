@@ -31,6 +31,14 @@ public class player_movment : MonoBehaviour
         Climb();
     }
 
+    private void pause()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("UI_Pause");
+        }
+    }
+
     private void MoveHorizontally()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
