@@ -411,8 +411,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 521178078}
-        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
-        m_MethodName: Back
+        m_TargetAssemblyTypeName: settingsmenuMain, Assembly-CSharp
+        m_MethodName: Backmain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1363,7 +1363,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 521178073}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98a6959f027cd2c4bb0869acaeeb6fb7, type: 3}
+  m_Script: {fileID: 11500000, guid: ac2c8abe7e04a024689eb5231bec9f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MainMixer: {fileID: 24100000, guid: 08f0e8b434c81ad41a83e7ef6bd3d6a4, type: 2}
@@ -2276,8 +2276,8 @@ GameObject:
   - component: {fileID: 1066230675}
   - component: {fileID: 1066230674}
   - component: {fileID: 1066230673}
-  - component: {fileID: 1066230672}
   - component: {fileID: 1066230677}
+  - component: {fileID: 1066230678}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2285,19 +2285,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1066230672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1066230671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98a6959f027cd2c4bb0869acaeeb6fb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MainMixer: {fileID: 0}
 --- !u!114 &1066230673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2476,6 +2463,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1066230678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066230671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2c8abe7e04a024689eb5231bec9f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainMixer: {fileID: 24100000, guid: 08f0e8b434c81ad41a83e7ef6bd3d6a4, type: 2}
 --- !u!1 &1067299908
 GameObject:
   m_ObjectHideFlags: 0
@@ -2813,8 +2813,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 521178078}
-        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
-        m_MethodName: SetFullscreen
+        m_TargetAssemblyTypeName: settingsmenuMain, Assembly-CSharp
+        m_MethodName: SetFullscreenmain
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3057,8 +3057,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 521178078}
-        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
-        m_MethodName: SetQuality
+        m_TargetAssemblyTypeName: settingsmenuMain, Assembly-CSharp
+        m_MethodName: SetQualitymain
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5082,8 +5082,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 521178078}
-        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
-        m_MethodName: SetVolume
+        m_TargetAssemblyTypeName: settingsmenuMain, Assembly-CSharp
+        m_MethodName: SetVolumemain
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

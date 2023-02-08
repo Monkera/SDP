@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class SettingsMenu : MonoBehaviour {
 
@@ -19,6 +20,10 @@ public class SettingsMenu : MonoBehaviour {
     public void SetQuality(int qualityIndex){
 
         QualitySettings.SetQualityLevel(qualityIndex);
+    }
+
+    public void Back(){
+        SceneManager.LoadScene("pausedmenu");
     }
 
 
