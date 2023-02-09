@@ -15,9 +15,11 @@ public class player_movment : MonoBehaviour
     public float ClimbSpeed = 8f;
     private bool _isClimbing;
     private sound_Manager soundManager;
+    private coin_logic coinLogic;
 
     private void Awake()
     {
+        coinLogic = FindObjectOfType<coin_logic>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         soundManager = FindObjectOfType<sound_Manager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
@@ -130,9 +132,14 @@ public class player_movment : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }else if(collider.gameObject.tag == "coin")
         {
+            coinLogic.addcoin();
             soundManager.Play("coin");
-            int coinlocal = PlayerPrefs.GetInt("coin") + 1;
-            PlayerPrefs.SetInt("coin", coinlocal);
+            Destroy(collider.gameObject);
+            
+        }else if(collider.gameObject.tag == "chest")
+        {
+            coinLogic.addchest();
+            soundManager.Play("chest");
             Destroy(collider.gameObject);
         }
     }
@@ -143,5 +150,10 @@ public class player_movment : MonoBehaviour
         {
             _isClimbing = false;
         }
+    }
+    
+    public void killPlayer()
+    {
+        //nothing to see her jet
     }
 }
