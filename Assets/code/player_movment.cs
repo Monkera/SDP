@@ -128,7 +128,8 @@ public class player_movment : MonoBehaviour
             soundManager.Play("coin");
             Destroy(collider.gameObject);
             
-        }else if(collider.gameObject.tag == "chest")
+        }
+        else if(collider.gameObject.tag == "chest")
         {
             coinLogic.addchest();
             soundManager.Play("chest");
@@ -142,10 +143,5 @@ public class player_movment : MonoBehaviour
         {
             _isClimbing = false;
         }
-    }
-    
-    public void killPlayer()
-    {
-        //nothing to see her jet
     }
 }
