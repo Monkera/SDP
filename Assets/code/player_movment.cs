@@ -31,16 +31,6 @@ public class player_movment : MonoBehaviour
         MoveHorizontally();
         Jump();
         Climb();
-        pause();
-    }
-
-    private void pause()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
-            SceneManager.LoadScene("pausedmenu");
-        }
     }
 
     private void MoveHorizontally()
@@ -103,7 +93,7 @@ public class player_movment : MonoBehaviour
         {
             PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
             soundManager.Play("death");
-            SceneManager.LoadScene("UI_Game_Over");
+            FindObjectOfType<GameManager>().GameOver();
         }
     }
 
