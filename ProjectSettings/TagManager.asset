@@ -11,6 +11,7 @@ TagManager:
   - Ladder
   - Door
   - coin
+  - sword
   layers:
   - Default
   - TransparentFX
