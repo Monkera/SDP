@@ -10,7 +10,6 @@ public class GameOver : MonoBehaviour
     public static bool gameOver = false;
     public GameObject gameOverUI;
     public string _MainMenu;
-    public string _Level;   
 
     void Start()
     {
@@ -21,18 +20,18 @@ public class GameOver : MonoBehaviour
     void Update()
     {
 
-            if (gameOver)
-            {
-                Retry();
-                gameOver = false;
-            }
+        if (gameOver)
+        {
+            gameOver = false;
+            Retry();
+        }
 
     }
 
     public void Retry()
     {
-        SceneManager.LoadScene(_Level);
-        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
     }
 
     public void QuitGame()

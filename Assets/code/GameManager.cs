@@ -3,9 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    bool gameHasEnded = false;
+    public bool gameHasEnded = false;
 
     public GameObject GameOverUI;
+
 
 
     public void GameOver()

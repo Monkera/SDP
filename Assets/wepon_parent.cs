@@ -9,10 +9,13 @@ public class wepon_parent : MonoBehaviour
     public Vector2 pointer_position { get; set; }
     private Animator _animator;
     private GameObject child;
+    private SpriteRenderer spriteRenderer;
+    private bool isattacking;
 
     private void Start()
     {
         child = transform.GetChild(0).gameObject;
+        spriteRenderer = child.GetComponent<SpriteRenderer>();
         _collider2D = child.GetComponent<Collider2D>();
         _animator = child.GetComponent<Animator>();
     }
@@ -20,20 +23,17 @@ public class wepon_parent : MonoBehaviour
 
     private void Update()
     {
-        pointer_position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.right = (pointer_position - (Vector2)transform.position).normalized;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKey("x"))
         {
+            spriteRenderer.enabled = true;
             _animator.SetBool("attack", true);
             _collider2D.enabled = true;
+            //_animator.
         }
 
-        if (Input.GetMouseButtonUp(0))
-        {
-            _animator.SetBool("attack", false);
-            _collider2D.enabled = false;
-        }
+        
+        
     }
 
     
