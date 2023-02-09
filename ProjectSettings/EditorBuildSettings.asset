@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/testing2/ui_start.unity
     guid: adec520d0f366ae4f83747b7371ee1d8
-  - enabled: 1
-    path: Assets/Scenes/testing2/testtitle2jann.unity
-    guid: 3722197c063d14a47a3ef6f4ce86b162
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/testing2/UI_Game_Over.unity
     guid: 887c6174ab232134992574b5c3aeabc2
@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/testing2/SettingsMenu2.unity
     guid: c23b008cdeafd2a47985567fb0218fac
+  - enabled: 1
+    path: Assets/Scenes/testing2/Level1.unity
+    guid: c685b3075574f4541a53fe4e8fbd3cea
+  - enabled: 1
+    path: Assets/Scenes/testing2/Level2.unity
+    guid: da7ded16e530948448d6ff02677ca96d
   m_configObjects: {}
