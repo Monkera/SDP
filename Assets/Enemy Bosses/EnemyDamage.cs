@@ -7,10 +7,11 @@ public class EnemyDamage : MonoBehaviour
     public int damage;
     public PlayerHealth Playerhealth;
 
-    private void OnCollisonEnter2D(Collison2D collision)
+    private void OnCollisonEnter2D(Collider2D collider)
     {
-        if(collision.gameObject.tag == "Player")
-    {
-        
+        if (collider.gameObject.tag == "Player")
+        {
+
+        }
     }
 }
