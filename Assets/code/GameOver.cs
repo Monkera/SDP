@@ -7,7 +7,7 @@ using TMPro;
 
 public class GameOver : MonoBehaviour
 {
-    public static bool gameOver = false;
+    public bool gameOver = false;
     public GameObject gameOverUI;
     public string _MainMenu;
 
@@ -37,5 +37,10 @@ public class GameOver : MonoBehaviour
     public void QuitGame()
     {
         SceneManager.LoadScene(_MainMenu);
+    }
+
+    public void setGameOver()
+    {
+        gameOver = true;
     }
 }
