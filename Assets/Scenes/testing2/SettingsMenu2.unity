@@ -410,7 +410,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 521178078}
+      - m_Target: {fileID: 1066230678}
         m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
         m_MethodName: Back
         m_Mode: 1
@@ -1982,6 +1982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainMixer: {fileID: 24100000, guid: 08f0e8b434c81ad41a83e7ef6bd3d6a4, type: 2}
+  _PauseMenu: 
 --- !u!1 &529029401
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,6 +3295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainMixer: {fileID: 24100000, guid: 08f0e8b434c81ad41a83e7ef6bd3d6a4, type: 2}
+  _PauseMenu: Level1
 --- !u!1 &1067299908
 GameObject:
   m_ObjectHideFlags: 0

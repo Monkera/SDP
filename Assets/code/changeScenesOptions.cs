@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class changeScenesOptions : MonoBehaviour
 {
     public void Settings(){
-        SceneManager.LoadScene("SettingsMenu");
+        SceneManager.LoadScene("SettingsMenu2");
     }
     public void Play(){
         SceneManager.LoadScene(PlayerPrefs.GetString("lastScene"));
