@@ -44,10 +44,12 @@ public class player_movment : MonoBehaviour
             if (horizontalInput < 0)
             {
                 spriteRenderer.flipX = true;
+                PlayerPrefs.SetInt("direction", 1);
             }
             else if (horizontalInput > 0)
             {
                 spriteRenderer.flipX = false;
+                PlayerPrefs.SetInt("direction", 0);
             }
         }
         else
