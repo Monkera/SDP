@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &115091231580986805
+--- !u!1 &2469253462084537817
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 115091231580986803}
-  - component: {fileID: 115091231580986804}
+  - component: {fileID: 2469253462084537823}
+  - component: {fileID: 2469253462084537816}
   m_Layer: 0
   m_Name: audo_manager
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &115091231580986803
+--- !u!4 &2469253462084537823
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115091231580986805}
+  m_GameObject: {fileID: 2469253462084537817}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.9824759, y: 3.72, z: 1.8520287}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,13 +32,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &115091231580986804
+--- !u!114 &2469253462084537816
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115091231580986805}
+  m_GameObject: {fileID: 2469253462084537817}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1aec4200d597084fa20976d5efdf66a, type: 3}
@@ -47,13 +47,31 @@ MonoBehaviour:
   sounds:
   - name: jump
     clip: {fileID: 8300000, guid: 04727e32548e18f4f96be497801a49b6, type: 3}
+    volume: 0.5
     loop: 0
     source: {fileID: 0}
   - name: key_pickup
     clip: {fileID: 8300000, guid: 9712cccb8c72fc4479bd4e1157e2cb8d, type: 3}
+    volume: 1
     loop: 0
     source: {fileID: 0}
   - name: death
     clip: {fileID: 8300000, guid: f9bd8258a6c2dd044814af8d0c415fc5, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: door
+    clip: {fileID: 8300000, guid: c2ff00ebc86b43744b80d28a04602d5e, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: coin
+    clip: {fileID: 8300000, guid: 0ec197e1023f25a4295745e826df7eab, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: chest
+    clip: {fileID: 8300000, guid: 9fd70b8d7b8cb4540ae319ecc5586ad4, type: 3}
+    volume: 1
     loop: 0
     source: {fileID: 0}

@@ -31,16 +31,6 @@ public class player_movment : MonoBehaviour
         MoveHorizontally();
         Jump();
         Climb();
-        pause();
-    }
-
-    private void pause()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
-            SceneManager.LoadScene("pausedmenu");
-        }
     }
 
     private void MoveHorizontally()
@@ -54,10 +44,12 @@ public class player_movment : MonoBehaviour
             if (horizontalInput < 0)
             {
                 spriteRenderer.flipX = true;
+                PlayerPrefs.SetInt("direction", 1);
             }
             else if (horizontalInput > 0)
             {
                 spriteRenderer.flipX = false;
+                PlayerPrefs.SetInt("direction", 0);
             }
         }
         else
@@ -103,7 +95,7 @@ public class player_movment : MonoBehaviour
         {
             PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
             soundManager.Play("death");
-            SceneManager.LoadScene("UI_Game_Over");
+            FindObjectOfType<GameManager>().GameOver();
         }
     }
 

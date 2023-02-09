@@ -21,7 +21,7 @@ public class sound_Manager : MonoBehaviour
             }
             else
             {
-                Debug.Log("can't finde sound");
+                Debug.Log("can't find sound");
                 return;
             }
 
