@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class RetryMenu : MonoBehaviour
 {
     public void RetryGame(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(PlayerPrefs.GetString("lastScene"));
     }
 
     public void QuitGame(){

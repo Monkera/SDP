@@ -10,7 +10,7 @@ TagManager:
   - Ground
   - Ladder
   - Door
-  - Pause_Menue
+  - coin
   layers:
   - Default
   - TransparentFX

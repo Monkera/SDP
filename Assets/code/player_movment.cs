@@ -99,6 +99,7 @@ public class player_movment : MonoBehaviour
 
         if (collision.gameObject.tag == "spikes")
         {
+            PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
             soundManager.Play("death");
             SceneManager.LoadScene("UI_Game_Over");
         }
@@ -127,6 +128,12 @@ public class player_movment : MonoBehaviour
         {
             soundManager.Play("door");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }else if(collider.gameObject.tag == "coin")
+        {
+            soundManager.Play("coin");
+            int coinlocal = PlayerPrefs.GetInt("coin") + 1;
+            PlayerPrefs.SetInt("coin", coinlocal);
+            Destroy(collider.gameObject);
         }
     }
 
