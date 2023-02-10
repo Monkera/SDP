@@ -44,11 +44,4 @@ public class wepon_parent : MonoBehaviour
         }
     }
 
-    public void CheckAnimationFinish()
-    {
-        if (!_animator.GetBool("isAttacking"))
-        {
-            // Animation has finished playing
-        }
-    }
 }

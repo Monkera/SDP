@@ -15,7 +15,6 @@ public class normal_enemy : MonoBehaviour
     void Start()
     {
         soundManager = FindObjectOfType<sound_Manager>();
-        deathEffect = GetComponent<ParticleSystem>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
     }
@@ -43,13 +42,13 @@ public class normal_enemy : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "sword")
         {
-            Destroy(gameObject);
-            Instantiate(deathEffect, transform.position, Quaternion.identity);
             soundManager.Play("enemy_death");
+            deathEffect.Play();
+            Destroy(gameObject);
         }
     }
 }
