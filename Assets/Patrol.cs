@@ -8,6 +8,8 @@ public class Patrol : MonoBehaviour
     private float originalX;
     private bool movingRight = true;
 
+
+
     private void Start()
     {
         originalX = transform.position.x;
