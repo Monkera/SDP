@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SettingsMenu : MonoBehaviour {
 
     public AudioMixer MainMixer;
+    public string _PauseMenu;
 
     public void SetVolume(float volume){
 
@@ -23,7 +24,7 @@ public class SettingsMenu : MonoBehaviour {
     }
 
     public void Back(){
-        SceneManager.LoadScene("pausedmenu");
+        SceneManager.LoadScene(_PauseMenu);
     }
 
 
