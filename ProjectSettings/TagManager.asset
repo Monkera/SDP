@@ -12,6 +12,7 @@ TagManager:
   - Door
   - coin
   - sword
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - 
   - 
   - Test Layer
-  - 
+  - ground
   - 
   - 
   - 

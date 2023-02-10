@@ -75,3 +75,8 @@ MonoBehaviour:
     volume: 1
     loop: 0
     source: {fileID: 0}
+  - name: enemy_death
+    clip: {fileID: 8300000, guid: 9a4431bc02f8fb542b69f59177208a9b, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}

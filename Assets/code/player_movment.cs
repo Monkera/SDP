@@ -97,6 +97,12 @@ public class player_movment : MonoBehaviour
             soundManager.Play("death");
             FindObjectOfType<GameManager>().GameOver();
         }
+        else if (collision.gameObject.tag == "enemy")
+        {
+            PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
+            soundManager.Play("death");
+            FindObjectOfType<GameManager>().GameOver();
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
