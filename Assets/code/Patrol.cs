@@ -24,6 +24,7 @@ public class Patrol : MonoBehaviour
             if (transform.position.x >= originalX + patrolDistance)
             {
                 movingRight = false;
+                 
             }
         }
         else

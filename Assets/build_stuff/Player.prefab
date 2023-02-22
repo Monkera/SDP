@@ -273,6 +273,11 @@ MonoBehaviour:
   MoveSpeed: 5
   PlayerJumpForce: 6
   ClimbSpeed: 4
+  enemyDamage: 2
+  spikeDamage: 10
+  Maxhealth: 10
+  currenthealth: 0
+  healthbar: {fileID: 0}
 --- !u!1 &3607016027206930131
 GameObject:
   m_ObjectHideFlags: 0

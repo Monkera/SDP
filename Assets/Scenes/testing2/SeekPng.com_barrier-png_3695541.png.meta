@@ -1,0 +1,673 @@
+fileFormatVersion: 2
+guid: 848d8978ab5e0e54eaafc6b7424d1d40
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 944
+        width: 117
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fbd0ac0ed4bd54589d8b620e098c5d
+      internalID: -900523277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 944
+        width: 117
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bead3e6df03449149a43ae3d4e98df7c
+      internalID: -1742225455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 944
+        width: 117
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfb4118cc8392940a41c8eac47a5070
+      internalID: 1171658697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_3
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 944
+        width: 117
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd62861c96d274f4999672a8dc3392c6
+      internalID: -835327838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_4
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 945
+        width: 117
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368270376c25fdc498ed0652aa0e9259
+      internalID: 1605855966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_5
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 691
+        width: 117
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d5a0a0b6317284f8453ad6ec7960db
+      internalID: 729965028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 693
+        width: 117
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505ce5c091093af45b5c0ece68f6e902
+      internalID: 1576284655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_7
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 695
+        width: 117
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911029de34797a044b7cee711fc4867b
+      internalID: 1051041219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_8
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 702
+        width: 117
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7cc1db14ce39744bc4ccf0754a3292
+      internalID: -1367706158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_9
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 709
+        width: 117
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9979bb73aaa20419094629436e6383
+      internalID: 2063868635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 460
+        width: 117
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87c9578d32e8b6408b07387d2f28ff5
+      internalID: -2075252422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_11
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 468
+        width: 117
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643b7ca346e67dd4cb84635073f0d2fc
+      internalID: -44097551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_12
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 475
+        width: 117
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff336ff5513a4f42b27e66e50deb89a
+      internalID: 2121270042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_13
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 482
+        width: 117
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04a9026fb02cc34f886d647c306fa9a
+      internalID: 1540996878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_14
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 489
+        width: 117
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20126ce152dbdea4ca5f2f2769fc5a13
+      internalID: -544641915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_15
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 240
+        width: 155
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf6436f435e7bf458973ebc95f67198
+      internalID: 1346324473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 248
+        width: 194
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ad69db16dc6274f8b84c07db0ce047
+      internalID: -1159858183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_17
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 255
+        width: 232
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8c5c08ee46b604d957f3944f0ca9b9
+      internalID: -413327078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_18
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 256
+        width: 234
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a093e9cd1f5255e4fb2e5c62e735d1f1
+      internalID: 1168696246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_19
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 256
+        width: 234
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54ccabbbd0565b41af5169945a00ed2
+      internalID: -811850037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 234
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9d22ff60ec69046b4a95653fd0d105
+      internalID: 1573038272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_21
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1
+        width: 234
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4139a9f2cbf84bf4d8b4dc4b7d12b97e
+      internalID: 22740614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_22
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 3
+        width: 214
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96c526af7e958d4d9b7532fe96dc89c
+      internalID: 1471876934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_23
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 7
+        width: 177
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e34215e1fb3cf147a071cd588a94988
+      internalID: 1284008799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_barrier-png_3695541_24
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 11
+        width: 139
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50e2b67dacd4ad4d9e82f2f6e2a51c1
+      internalID: 1428873165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SeekPng.com_barrier-png_3695541_6: 1576284655
+      SeekPng.com_barrier-png_3695541_0: -900523277
+      SeekPng.com_barrier-png_3695541_3: -835327838
+      SeekPng.com_barrier-png_3695541_2: 1171658697
+      SeekPng.com_barrier-png_3695541_11: -44097551
+      SeekPng.com_barrier-png_3695541_14: -544641915
+      SeekPng.com_barrier-png_3695541_7: 1051041219
+      SeekPng.com_barrier-png_3695541_16: -1159858183
+      SeekPng.com_barrier-png_3695541_24: 1428873165
+      SeekPng.com_barrier-png_3695541_17: -413327078
+      SeekPng.com_barrier-png_3695541_10: -2075252422
+      SeekPng.com_barrier-png_3695541_19: -811850037
+      SeekPng.com_barrier-png_3695541_5: 729965028
+      SeekPng.com_barrier-png_3695541_9: 2063868635
+      SeekPng.com_barrier-png_3695541_1: -1742225455
+      SeekPng.com_barrier-png_3695541_12: 2121270042
+      SeekPng.com_barrier-png_3695541_13: 1540996878
+      SeekPng.com_barrier-png_3695541_23: 1284008799
+      SeekPng.com_barrier-png_3695541_4: 1605855966
+      SeekPng.com_barrier-png_3695541_21: 22740614
+      SeekPng.com_barrier-png_3695541_15: 1346324473
+      SeekPng.com_barrier-png_3695541_8: -1367706158
+      SeekPng.com_barrier-png_3695541_20: 1573038272
+      SeekPng.com_barrier-png_3695541_18: 1168696246
+      SeekPng.com_barrier-png_3695541_22: 1471876934
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

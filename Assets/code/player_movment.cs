@@ -16,6 +16,18 @@ public class player_movment : MonoBehaviour
     private bool _isClimbing;
     private sound_Manager soundManager;
     private coin_logic coinLogic;
+    public int enemyDamage = 2;
+    public int spikeDamage = 10;
+    public int Maxhealth = 10;
+    public int currenthealth;
+    private bool isBouncing = false;
+
+    public healthbarscript healthbar;
+
+    void Start() {
+        currenthealth = Maxhealth;
+        healthbar.SetMaxHealth(Maxhealth);
+    }
 
     private void Awake()
     {
@@ -24,6 +36,7 @@ public class player_movment : MonoBehaviour
         soundManager = FindObjectOfType<sound_Manager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        healthbar = GetComponent<healthbarscript>();
     }
 
     private void Update()
@@ -93,17 +106,35 @@ public class player_movment : MonoBehaviour
 
         if (collision.gameObject.tag == "spikes")
         {
-            PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
-            soundManager.Play("death");
-            FindObjectOfType<GameManager>().GameOver();
+            over();
         }
         else if (collision.gameObject.tag == "enemy")
         {
-            PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
-            soundManager.Play("death");
-            FindObjectOfType<GameManager>().GameOver();
+            currenthealth -= enemyDamage;
+            healthbar.SetHealth(currenthealth);
+            Debug.Log(currenthealth);
+
+            isBouncing = true;
+            float bounce = 150f; //amount of force to apply
+            _rigidbody2D.AddForce(collision.contacts[0].normal * bounce);
+            
+            Invoke("StopBounce", 0.3f);
+
+            if (currenthealth <= 0) {
+
+                over();
+
+            }
+          
+
         }
     }
+
+private void over() {
+PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
+            soundManager.Play("death");
+            FindObjectOfType<GameManager>().GameOver();
+}
 
     private void OnCollisionExit2D(Collision2D collision)
     {
@@ -150,4 +181,11 @@ public class player_movment : MonoBehaviour
             _isClimbing = false;
         }
     }
+
+
+    void StopBounce()
+    {
+        isBouncing = false;
+    }
 }
+
