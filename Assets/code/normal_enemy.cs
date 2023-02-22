@@ -7,7 +7,7 @@ public class normal_enemy : MonoBehaviour
     public bool isFliept;
     public float speed = 2f;
     private bool facingRight = false;
-    private Rigidbody2D rb;
+    //private Rigidbody2D rb;
     public LayerMask groundLayer;
     public int angle = 40;
     private SpriteRenderer spriteRenderer;
@@ -28,7 +28,7 @@ public class normal_enemy : MonoBehaviour
         healthbar.SetMaxHealth(Maxhealth);
         soundManager = FindObjectOfType<sound_Manager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        rb = GetComponent<Rigidbody2D>();
+        //rb = GetComponent<Rigidbody2D>();
     }
 
     private void Awake()
@@ -40,8 +40,8 @@ public class normal_enemy : MonoBehaviour
 
     void Update()
     {
-<<<<<<< Updated upstream
-        if (facingRight)
+
+        /*if (facingRight)
         {
             spriteRenderer.flipX = false;
             isFliept = true;
@@ -52,12 +52,8 @@ public class normal_enemy : MonoBehaviour
             spriteRenderer.flipX = true;
             isFliept = false;
             rb.velocity = new Vector2(-speed, rb.velocity.y);
-        }
-        // what ever you do if you touch this line evretying will break so do not touch it
-=======
-       
+        }*/
 
->>>>>>> Stashed changes
         Vector2 direction = facingRight ? new Vector2(Mathf.Sin(angle * Mathf.Deg2Rad), -Mathf.Cos(angle * Mathf.Deg2Rad)) : new Vector2(-Mathf.Sin(angle * Mathf.Deg2Rad), -Mathf.Cos(angle * Mathf.Deg2Rad));
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, groundLayer);
 
@@ -82,6 +78,7 @@ public class normal_enemy : MonoBehaviour
             }
             
         }
+       
       
 
     }
