@@ -127,6 +127,12 @@ public class player_movment : MonoBehaviour
 
 
         }
+        else if (collision.gameObject.tag == "spikes")
+        {
+            over();
+
+            soundManager.Play("death");
+        }
     }
 
     private void over()
@@ -172,11 +178,6 @@ public class player_movment : MonoBehaviour
             coinLogic.addchest();
             soundManager.Play("chest");
             Destroy(collider.gameObject);
-        }else if (collider.gameObject.tag == "spikes")
-        {
-            over();
-            
-            soundManager.Play("death");
         }
     }
 
