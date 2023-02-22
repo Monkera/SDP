@@ -24,7 +24,8 @@ public class player_movment : MonoBehaviour
 
     public healthbarscript healthbar;
 
-    void Start() {
+    void Start()
+    {
         currenthealth = Maxhealth;
         healthbar.SetMaxHealth(Maxhealth);
     }
@@ -104,11 +105,8 @@ public class player_movment : MonoBehaviour
         _isFloor = true;
         _animator.SetBool("is_jumping", false);
 
-        if (collision.gameObject.tag == "spikes")
-        {
-            over();
-        }
-        else if (collision.gameObject.tag == "enemy")
+        
+        if (collision.gameObject.tag == "enemy")
         {
             currenthealth -= enemyDamage;
             healthbar.SetHealth(currenthealth);
@@ -117,24 +115,26 @@ public class player_movment : MonoBehaviour
             isBouncing = true;
             float bounce = 150f; //amount of force to apply
             _rigidbody2D.AddForce(collision.contacts[0].normal * bounce);
-            
+
             Invoke("StopBounce", 0.3f);
 
-            if (currenthealth <= 0) {
+            if (currenthealth <= 0)
+            {
 
                 over();
 
             }
-          
+
 
         }
     }
 
-private void over() {
-PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
-            soundManager.Play("death");
-            FindObjectOfType<GameManager>().GameOver();
-}
+    private void over()
+    {
+        PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
+        soundManager.Play("death");
+        FindObjectOfType<GameManager>().GameOver();
+    }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
@@ -159,18 +159,24 @@ PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
         {
             soundManager.Play("door");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }else if(collider.gameObject.tag == "coin")
+        }
+        else if (collider.gameObject.tag == "coin")
         {
             coinLogic.addcoin();
             soundManager.Play("coin");
             Destroy(collider.gameObject);
-            
+
         }
-        else if(collider.gameObject.tag == "chest")
+        else if (collider.gameObject.tag == "chest")
         {
             coinLogic.addchest();
             soundManager.Play("chest");
             Destroy(collider.gameObject);
+        }else if (collider.gameObject.tag == "spikes")
+        {
+            over();
+            Destroy(gameObject);
+            soundManager.Play("death");
         }
     }
 
@@ -188,4 +194,3 @@ PlayerPrefs.SetString("lastScene", SceneManager.GetActiveScene().name);
         isBouncing = false;
     }
 }
-
