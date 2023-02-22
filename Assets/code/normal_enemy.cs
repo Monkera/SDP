@@ -1,10 +1,10 @@
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class normal_enemy : MonoBehaviour
 {
-    public bool isFliept;
+    public bool isFlipped;
     public float speed = 2f;
     private bool facingRight = false;
     private Rigidbody2D rb;
@@ -13,78 +13,59 @@ public class normal_enemy : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public ParticleSystem deathEffect;
     private sound_Manager soundManager;
-      public int playerDamage = 5;
-      public int playerDamage_1 = 2;
+    public int playerDamage = 5;
+    public int playerDamage_1 = 2;
     public int Maxhealth = 10;
-    public int currenthealth;
-   
+    public int currentHealth;
 
-    public healthbarscript healthbar;
+    public healthbarscript healthBar;
 
-    void Start()
+
+    private void Awake()
     {
-        Debug.Log("Lets go");
-        currenthealth = Maxhealth;
-        healthbar.SetMaxHealth(Maxhealth);
+        healthBar = GetComponent<healthbarscript>();
+        currentHealth = Maxhealth;
+        healthBar.SetMaxHealth(Maxhealth);
         soundManager = FindObjectOfType<sound_Manager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
     }
 
-    private void Awake()
+    void FixedUpdate()
     {
-        healthbar = GetComponent<healthbarscript>();
-         
-    }
-
-
-    void Update()
-    {
-<<<<<<< Updated upstream
         if (facingRight)
         {
             spriteRenderer.flipX = false;
-            isFliept = true;
+            isFlipped = true;
             rb.velocity = new Vector2(speed, rb.velocity.y);
         }
         else
         {
             spriteRenderer.flipX = true;
-            isFliept = false;
+            isFlipped = false;
             rb.velocity = new Vector2(-speed, rb.velocity.y);
         }
-        // what ever you do if you touch this line evretying will break so do not touch it
-=======
-       
 
->>>>>>> Stashed changes
         Vector2 direction = facingRight ? new Vector2(Mathf.Sin(angle * Mathf.Deg2Rad), -Mathf.Cos(angle * Mathf.Deg2Rad)) : new Vector2(-Mathf.Sin(angle * Mathf.Deg2Rad), -Mathf.Cos(angle * Mathf.Deg2Rad));
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, groundLayer);
 
         Debug.DrawRay(transform.position, direction, Color.red);
-        
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log(collision.gameObject.tag);
-        if (collision.gameObject.tag == "sword")
+        if (collision.gameObject.CompareTag("sword"))
         {
-            currenthealth -= playerDamage;
-            healthbar.SetHealth(currenthealth);
+            currentHealth -= playerDamage;
+            healthBar.SetHealth(currentHealth);
 
-
-            if(currenthealth <= 0) {
-               soundManager.Play("enemy_death");
-            deathEffect.Play();
-            Destroy(gameObject);
-
+            if (currentHealth <= 0)
+            {
+                soundManager.Play("enemy_death");
+                deathEffect.Play();
+                Destroy(gameObject);
             }
-            
         }
-      
-
     }
 }
-
-    
