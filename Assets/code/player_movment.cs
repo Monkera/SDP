@@ -175,7 +175,7 @@ public class player_movment : MonoBehaviour
         }else if (collider.gameObject.tag == "spikes")
         {
             over();
-            Destroy(gameObject);
+            
             soundManager.Play("death");
         }
     }
