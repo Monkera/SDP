@@ -36,6 +36,9 @@ public class sound_Manager : MonoBehaviour
     public void Stop(string name)
     {
         Sound s = System.Array.Find(sounds, sound => sound.name == name);
-        s.source.Stop();
+        if (s.source.isPlaying)
+        {
+            s.source.Stop();
+        }
     }
 }
