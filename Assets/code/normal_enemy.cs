@@ -7,7 +7,6 @@ public class normal_enemy : MonoBehaviour
     public bool isFliept;
     public float speed = 2f;
     private bool facingRight = false;
-    //private Rigidbody2D rb;
     public LayerMask groundLayer;
     public int angle = 40;
     private SpriteRenderer spriteRenderer;
@@ -78,9 +77,6 @@ public class normal_enemy : MonoBehaviour
             }
             
         }
-       
-      
-
     }
 }
 
