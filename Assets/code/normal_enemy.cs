@@ -12,7 +12,7 @@ public class normal_enemy : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public ParticleSystem deathEffect;
     private sound_Manager soundManager;
-      public int playerDamage = 5;
+      public int playerDamage = 3;
       public int playerDamage_1 = 2;
     public int Maxhealth = 10;
     public int currenthealth;
