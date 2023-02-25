@@ -27,7 +27,6 @@ public class normal_enemy : MonoBehaviour
         healthbar.SetMaxHealth(Maxhealth);
         soundManager = FindObjectOfType<sound_Manager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        //rb = GetComponent<Rigidbody2D>();
     }
 
     private void Awake()
@@ -39,19 +38,6 @@ public class normal_enemy : MonoBehaviour
 
     void Update()
     {
-
-        /*if (facingRight)
-        {
-            spriteRenderer.flipX = false;
-            isFliept = true;
-            rb.velocity = new Vector2(speed, rb.velocity.y);
-        }
-        else
-        {
-            spriteRenderer.flipX = true;
-            isFliept = false;
-            rb.velocity = new Vector2(-speed, rb.velocity.y);
-        }*/
 
         Vector2 direction = facingRight ? new Vector2(Mathf.Sin(angle * Mathf.Deg2Rad), -Mathf.Cos(angle * Mathf.Deg2Rad)) : new Vector2(-Mathf.Sin(angle * Mathf.Deg2Rad), -Mathf.Cos(angle * Mathf.Deg2Rad));
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, groundLayer);
