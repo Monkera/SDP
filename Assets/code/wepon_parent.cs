@@ -20,7 +20,7 @@ public class wepon_parent : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey("x"))
+        if (Input.GetKey("j"))
         {
             if (PlayerPrefs.GetInt("direction") == 0)
             {
