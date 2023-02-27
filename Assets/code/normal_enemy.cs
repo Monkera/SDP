@@ -12,8 +12,8 @@ public class normal_enemy : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public ParticleSystem deathEffect;
     private sound_Manager soundManager;
-      public int playerDamage = 3;
-      public int playerDamage_1 = 2;
+    public int playerDamage = 3;
+    public int playerDamage_1 = 2;
     public int Maxhealth = 10;
     public int currenthealth;
     private coin_logic coinLogic;
@@ -44,7 +44,7 @@ public class normal_enemy : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, groundLayer);
 
         Debug.DrawRay(transform.position, direction, Color.red);
-        
+
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -56,15 +56,16 @@ public class normal_enemy : MonoBehaviour
             healthbar.SetHealth(currenthealth);
 
 
-            if(currenthealth <= 0) {
-               soundManager.Play("enemy_death");
+            if (currenthealth <= 0)
+            {
+                soundManager.Play("enemy_death");
                 deathEffect.Play();
                 coinLogic.addenemy();
                 Destroy(gameObject);
             }
-            
+
         }
     }
 }
 
-    
+

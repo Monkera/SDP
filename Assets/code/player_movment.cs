@@ -105,12 +105,11 @@ public class player_movment : MonoBehaviour
         _isFloor = true;
         _animator.SetBool("is_jumping", false);
 
-        
+
         if (collision.gameObject.tag == "enemy")
         {
             currenthealth -= enemyDamage;
             healthbar.SetHealth(currenthealth);
-            Debug.Log(currenthealth);
 
             isBouncing = true;
             float bounce = 150f; //amount of force to apply
@@ -130,7 +129,6 @@ public class player_movment : MonoBehaviour
         else if (collision.gameObject.tag == "spikes")
         {
             over();
-
             soundManager.Play("death");
         }
     }
@@ -151,13 +149,11 @@ public class player_movment : MonoBehaviour
     {
         if (collider.gameObject.tag == "Ladder")
         {
-            Debug.Log("Ladder");
             _isClimbing = true;
         }
         else if (collider.gameObject.tag == "key")
         {
             soundManager.Play("key_pickup");
-            Debug.Log("Key");
             key = true;
             Destroy(collider.gameObject);
         }
