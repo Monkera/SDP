@@ -16,13 +16,14 @@ public class normal_enemy : MonoBehaviour
       public int playerDamage_1 = 2;
     public int Maxhealth = 10;
     public int currenthealth;
-   
+    private coin_logic coinLogic;
+
 
     public healthbarscript healthbar;
 
     void Start()
     {
-        Debug.Log("Lets go");
+        //Debug.Log("Lets go");
         currenthealth = Maxhealth;
         healthbar.SetMaxHealth(Maxhealth);
         soundManager = FindObjectOfType<sound_Manager>();
@@ -32,7 +33,7 @@ public class normal_enemy : MonoBehaviour
     private void Awake()
     {
         healthbar = GetComponent<healthbarscript>();
-         
+        coinLogic = FindObjectOfType<coin_logic>();
     }
 
 
@@ -57,9 +58,9 @@ public class normal_enemy : MonoBehaviour
 
             if(currenthealth <= 0) {
                soundManager.Play("enemy_death");
-            deathEffect.Play();
-            Destroy(gameObject);
-
+                deathEffect.Play();
+                coinLogic.addenemy();
+                Destroy(gameObject);
             }
             
         }
