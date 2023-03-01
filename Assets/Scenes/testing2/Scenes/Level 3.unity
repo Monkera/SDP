@@ -11589,7 +11589,7 @@ PrefabInstance:
     - target: {fileID: 5729153692842010564, guid: b057ead46e99ee84b965c102361383fa, type: 3}
       propertyPath: GameOverUI
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1622860695}
     - target: {fileID: 5729153692842010565, guid: b057ead46e99ee84b965c102361383fa, type: 3}
       propertyPath: m_Name
       value: GameManager

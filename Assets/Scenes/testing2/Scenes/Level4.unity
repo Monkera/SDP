@@ -8355,7 +8355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameHasEnded: 0
-  GameOverUI: {fileID: 0}
+  GameOverUI: {fileID: 1273284206}
 --- !u!4 &1520400971
 Transform:
   m_ObjectHideFlags: 0

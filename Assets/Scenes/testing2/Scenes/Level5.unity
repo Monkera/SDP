@@ -3849,6 +3849,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3086677504688399617, guid: 1db9e570b298a20409be85ef317b0667, type: 3}
+      propertyPath: m_text
+      value: 'Level 5
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 3569080383282926544, guid: 1db9e570b298a20409be85ef317b0667, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -6145,7 +6151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameHasEnded: 0
-  GameOverUI: {fileID: 0}
+  GameOverUI: {fileID: 881409313}
 --- !u!4 &1377134265
 Transform:
   m_ObjectHideFlags: 0
